@@ -1,9 +1,9 @@
 type HangmanWordProps = {
-  guessedLetters: string[]
-  wordToGuess: string
-  reveal?: boolean
-}
-
+  guessedLetters: string[];
+  wordToGuess: string;
+  reveal?: boolean;
+};
+// test
 export function HangmanWord({
   guessedLetters,
   wordToGuess,
@@ -37,5 +37,5 @@ export function HangmanWord({
         </span>
       ))}
     </div>
-  )
+  );
 }
